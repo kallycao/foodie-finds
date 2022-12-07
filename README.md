@@ -16,7 +16,7 @@
 
 ## Overview
 
-Let's Eat is an application designed to help indecisive and hungry users by generating random restaurants based on user cravings and houses a list of user favorited restaurants. The drool-worthy UI will inspire even the most uncertain users!
+Let's Eat is an application designed to help indecisive and hungry users. It generates a list of the top 20 restaurants, from Yelp's API, based on user selection. Options are presented in random order. It also houses a list of user favorited restaurants. The drool-worthy UI will inspire even the most uncertain users!
 
 &emsp;
 
