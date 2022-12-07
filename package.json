@@ -18,9 +18,9 @@
   "author": "Kally Cao",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kallycao/foodie-finds/issues"
+    "url": "https://github.com/kallycao/lets-eat/issues"
   },
-  "homepage": "https://github.com/kallycao/foodie-finds#readme",
+  "homepage": "https://github.com/kallycao/lets-eat#readme",
   "dependencies": {
     "@chakra-ui/icons": "^2.0.12",
     "@chakra-ui/react": "^2.4.1",
