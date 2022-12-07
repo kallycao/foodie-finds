@@ -1,7 +1,5 @@
 # Let's Eat!
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; [![alt text](letseat.png)]
-
 ## Technologies
 
 **Front-End:** &emsp;&nbsp;&nbsp;
@@ -20,4 +18,9 @@
 Let's Eat is an application designed to streamline the process of finding new restaurants for users that are indecisive or on the hunt for something new!
 &emsp;
 
-## Features
+## Features ##
+
+## Sign Up/Log In ##
+## Random Restaurant Generator (Menu Selection) ##
+## Random Restaurant Generator (Custom Search) ##
+## Favorites ##
