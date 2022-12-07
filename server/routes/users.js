@@ -1,10 +1,16 @@
-// import express
 const express = require('express');
-// create router
-const router = express.Router();
+const userRouter = express.Router();
 
-//require user controller
+const userController = require('../controllers/users.js');
 
-//create routes
+userRouter.get('/', userController.getUser);
 
-//export router
+userRouter.post('/', userController.createUser);
+
+userRouter.post('/favorites', userController.addFav);
+
+userRouter.get('/favorites', userController.findFavs);
+
+userRouter.delete('/favorites', userController.deleteFav);
+
+module.exports = userRouter;

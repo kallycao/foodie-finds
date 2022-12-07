@@ -1,8 +1,7 @@
-// create mongoDB schema and establish connection
 const mongoose = require('mongoose');
 const db = mongoose
   .connect('mongodb://localhost:27017/foodieFinds')
-  .then(() => 'Connection established to Foodie Finds database')
+  .then(() => 'Connection established database')
   .catch((err) => console.log(err));
 
 const Schema = mongoose.Schema;
@@ -12,6 +11,11 @@ const userSchema = new Schema({
     type: String,
     required: true,
     maxLength: 60,
+  },
+  password: {
+    type: String,
+    required: true,
+    maxLength: 20,
   },
 });
 
@@ -42,10 +46,6 @@ const favoritesSchema = new Schema({
     type: Number,
     required: true,
   },
-  review_count: {
-    type: Number,
-    required: true,
-  },
   location: {
     type: String,
     required: true,
@@ -66,7 +66,6 @@ const favoritesSchema = new Schema({
 
 const Favorites = mongoose.model('Favorites', favoritesSchema);
 
-//export model
 module.exports = {
   User,
   Favorites,
