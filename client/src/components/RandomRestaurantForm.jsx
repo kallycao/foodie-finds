@@ -80,7 +80,7 @@ const RandomRestaurantForm = ({ currInfo, handleAdd }) => {
             </FormControl>
 
             <FormControl>
-              <Checkbox pb="4" value={preference.open_now} onChange={handleOpenNow}>
+              <Checkbox value={preference.open_now} onChange={handleOpenNow}>
                 Open Now
               </Checkbox>
             </FormControl>

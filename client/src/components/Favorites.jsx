@@ -21,14 +21,7 @@ const Favorites = ({ userFavs, handleDelete }) => {
   return (
     <SimpleGrid spacing={4} templateColumns="repeat(auto-fill, minmax(200px, 1fr))">
       {userFavs.map((place, index) => (
-        <Card
-          maxW="sm"
-          key={userFavs[index]._id}
-          borderRadius="sm"
-          overflow="hidden"
-          size="sm"
-          bg="white"
-        >
+        <Card maxW="sm" key={userFavs[index]._id} borderRadius="sm" size="sm" bg="white">
           <CardBody>
             <Image src={userFavs[index].image_url} alt={userFavs[index].name} objectFit="cover" />
 
@@ -54,7 +47,7 @@ const Favorites = ({ userFavs, handleDelete }) => {
               lineHeight="tight"
               letterSpacing="wide"
               textTransform="uppercase"
-              noOfLines={1}
+              noOfLines={2}
             >
               {userFavs[index].name}
             </Box>
