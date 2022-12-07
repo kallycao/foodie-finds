@@ -10,6 +10,7 @@
 **Back-End:** &emsp;&nbsp; &nbsp;
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 
 &emsp;
 
@@ -22,6 +23,13 @@ Let's Eat is an application designed to help indecisive and hungry users by gene
 ## Features ##
 
 ## Sign Up/Log In ##
+Users can create a new account or log into an existing account to enjoy the various features.
+
 ## Random Restaurant Generator (Menu Selection) ##
+After inputting their location, users can select one food from a menu to generate a list of the top 20 restaurants based on the selection (presented in random order). Users are able to navigate through the list and have the option to favorite the restaurant or view more information on Yelp!
+
 ## Random Restaurant Generator (Custom Search) ##
+After inputting their location, users have the option to customize their search to generate a list of the top 20 restaurants based on their input (presented in random order). Users are able to navigate through the list and have the option to favorite the restaurant or view more information on Yelp!
+
 ## Favorites ##
+Users can view and delete their favorited restaurants. Users are able to view more information about a favorited restaurant on Yelp by clicking the Yelp logo.
