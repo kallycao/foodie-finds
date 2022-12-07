@@ -33,3 +33,23 @@ After inputting their location, users have the option to customize their search 
 
 ## Favorites ##
 Users can view and delete their favorited restaurants. Users are able to view more information about a favorited restaurant on Yelp by clicking the Yelp logo.
+
+## Installation ##
+
+To run this application off your local computer, please clone this repo and perform the following:
+
+- Make a .env file following the example.env file.
+
+- Install necessary libraries
+
+  - `npm install`
+
+- Build
+
+  - `npm run build`
+
+- Start the server
+
+  - `npm start`
+
+- Go to localhost:3000 to access Let's Eat
