@@ -15,7 +15,8 @@
 
 ## Overview
 
-Let's Eat is an application designed to streamline the process of finding new restaurants for users that are indecisive or on the hunt for something new!
+Let's Eat is an application designed to help indecisive and hungry users by generating random restaurants based on user cravings and houses a list of user favorited restaurants. The drool-worthy UI will inspire even the most uncertain users!
+
 &emsp;
 
 ## Features ##
