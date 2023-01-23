@@ -14,9 +14,6 @@
 &emsp;
 
 ## Overview
-  <p align="center">
-    <img src="https://media.giphy.com/media/uov0VM0Y3jTF82aIhS/giphy.gif" alt="app overview" />
-  </p>
 
 Let's Eat is an application designed to streamline the process of finding new restaurants for users that are indecisive or on the hunt for something new!
 &emsp;
