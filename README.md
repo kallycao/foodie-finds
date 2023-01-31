@@ -22,14 +22,28 @@ Let's Eat is an application designed to streamline the process of finding new re
 
 ## Sign In / Sign Up
 
+<p align="center">
+  <img src="https://media.giphy.com/media/VITbpk7xKT7KSq7EkB/giphy.gif" alt="sign in" />
+</p>
+
+
+
+
 - Allows users to sign up or create an account
 
 ## Random Restaurant Generator
+
+<p align="center">
+  <img src="https://media.giphy.com/media/KGZHuo9BycvqiEwQ8D/giphy.gif" alt="random restaurant generator" />
+</p>
 
 - Generate restaurants based on user location, custom/provided preferences, and 'open now' option
 - Users can favorite restaurants and navigate directly to the restaurant's Yelp page
 
 ## Favorites Page
 
+<p align="center">
+  <img src="https://media.giphy.com/media/qBd9aXjD8hEoq9rcX1/giphy.gif" alt="favorites page" />
+</p>
 
-- Allows users to view their favorited restaurants and edit the current list
+- Allows users to view their favorited restaurants, navigate directly to the restaurant's Yelp page, and edit their favorites
